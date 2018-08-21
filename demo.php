@@ -1,11 +1,7 @@
 <?php
 
 /**
-* Created by PhpStorm.
-* User: 抠脚强
-* Date: 2017/11/16
-* Time: 3:13
-* My Blog : https://imlyq.top
+* My Blog : https://meetes.top
 *
 * phpqrcode.php提供了一个关键的png()方法，
 * @param $text  生成二位的的信息文本；
@@ -22,7 +18,7 @@ $url = 'images/';
 //引入php QR库文件
 include_once('phpqrcode/phpqrcode.php');
 
-$value = 'yeyangyang';
+$value = 'https://meetes.top';
 $errorCorrentionLevel = 'L'; //容错级别
 $matrixPoinSize = 6; //生成图片大小
 
